@@ -1,4 +1,4 @@
-# Install script for directory: /home/peanutbutter124/easy-proot/easy-proot/xlarig/src/3rdparty/argon2
+# Install script for directory: /xlarig/src/3rdparty/argon2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

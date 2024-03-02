@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peanutbutter124/easy-proot/easy-proot/xlarig
+CMAKE_SOURCE_DIR = /xlarig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peanutbutter124/easy-proot/easy-proot/xlarig/build
+CMAKE_BINARY_DIR = /xlarig/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xlarig-asm.dir/depend.make
@@ -59,13 +59,13 @@ include CMakeFiles/xlarig-asm.dir/flags.make
 
 CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o: CMakeFiles/xlarig-asm.dir/flags.make
 CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o: ../src/crypto/cn/asm/cn_main_loop.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peanutbutter124/easy-proot/easy-proot/xlarig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o -c /home/peanutbutter124/easy-proot/easy-proot/xlarig/src/crypto/cn/asm/cn_main_loop.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/xlarig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o -c /xlarig/src/crypto/cn/asm/cn_main_loop.S
 
 CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o: CMakeFiles/xlarig-asm.dir/flags.make
 CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o: ../src/crypto/cn/asm/CryptonightR_template.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peanutbutter124/easy-proot/easy-proot/xlarig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o -c /home/peanutbutter124/easy-proot/easy-proot/xlarig/src/crypto/cn/asm/CryptonightR_template.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/xlarig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o -c /xlarig/src/crypto/cn/asm/CryptonightR_template.S
 
 # Object files for target xlarig-asm
 xlarig__asm_OBJECTS = \
@@ -79,7 +79,7 @@ libxlarig-asm.a: CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o
 libxlarig-asm.a: CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o
 libxlarig-asm.a: CMakeFiles/xlarig-asm.dir/build.make
 libxlarig-asm.a: CMakeFiles/xlarig-asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peanutbutter124/easy-proot/easy-proot/xlarig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libxlarig-asm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/xlarig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libxlarig-asm.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/xlarig-asm.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xlarig-asm.dir/link.txt --verbose=$(VERBOSE)
 
@@ -93,6 +93,6 @@ CMakeFiles/xlarig-asm.dir/clean:
 .PHONY : CMakeFiles/xlarig-asm.dir/clean
 
 CMakeFiles/xlarig-asm.dir/depend:
-	cd /home/peanutbutter124/easy-proot/easy-proot/xlarig/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peanutbutter124/easy-proot/easy-proot/xlarig /home/peanutbutter124/easy-proot/easy-proot/xlarig /home/peanutbutter124/easy-proot/easy-proot/xlarig/build /home/peanutbutter124/easy-proot/easy-proot/xlarig/build /home/peanutbutter124/easy-proot/easy-proot/xlarig/build/CMakeFiles/xlarig-asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /xlarig/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /xlarig /xlarig /xlarig/build /xlarig/build /xlarig/build/CMakeFiles/xlarig-asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xlarig-asm.dir/depend
 

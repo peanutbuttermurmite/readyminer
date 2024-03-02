@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/peanutbutter124/easy-proot/easy-proot/xlarig/src/crypto/cn/asm/CryptonightR_template.S" "/home/peanutbutter124/easy-proot/easy-proot/xlarig/build/CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
-  "/home/peanutbutter124/easy-proot/easy-proot/xlarig/src/crypto/cn/asm/cn_main_loop.S" "/home/peanutbutter124/easy-proot/easy-proot/xlarig/build/CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
+  "/xlarig/src/crypto/cn/asm/CryptonightR_template.S" "/xlarig/build/CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
+  "/xlarig/src/crypto/cn/asm/cn_main_loop.S" "/xlarig/build/CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
